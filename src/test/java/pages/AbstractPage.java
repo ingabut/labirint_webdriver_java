@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class AbstractPage {
     private final static int TIMEOUT = 30;
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     private WebDriverWait wait;
 
