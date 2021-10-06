@@ -56,9 +56,5 @@ public class HomePage extends AbstractPage{
             driver.findElement(loginButton).click();
         }
     }
-/*
-    public void loadPage() {
-        getDriver().get("https://www.labirint.ru/");
-    }
-    */
+
 }
